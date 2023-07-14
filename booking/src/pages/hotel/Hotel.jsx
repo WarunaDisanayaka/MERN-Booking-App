@@ -1,9 +1,11 @@
 import React from 'react'
 
-function hotel() {
+const Hotel = () => {
   return (
-    <div>hotel</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default hotel
+export default Hotel
