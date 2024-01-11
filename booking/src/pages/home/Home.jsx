@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="navbar">
         <div className="navContainer">
-            <span className="logo">lamabooking</span>
+            <span className="logo">BookingApp</span>
             <div className="navItems">
                 <button className="navButton">Register</button>
                 <button className="navButton">Login</button>
