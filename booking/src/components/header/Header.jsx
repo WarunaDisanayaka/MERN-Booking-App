@@ -52,12 +52,11 @@ const Header = () => {
                         <FontAwesomeIcon icon={faCalendarDays} className="headerIcon"/>
                         <span className='headerSearchText'>date to date</span>
                         <DateRange
-  editableDateInputs={true}
-  onChange={item => setDate([item.selection])}
-  moveRangeOnFirstSelection={false}
-  ranges={date}
-  className="date"
-/>
+                            editableDateInputs={true}
+                            onChange={item => setDate([item.selection])}
+                            moveRangeOnFirstSelection={false}
+                            ranges={date}
+                            className="date"/>
                     </div>
                     <div className="headerSearchItem">
                         <FontAwesomeIcon icon={faPerson} className="headerIcon"/>
